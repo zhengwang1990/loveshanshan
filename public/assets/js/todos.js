@@ -43,7 +43,7 @@ $("ul").on("click", ".no", function(){
 function load(){
     $("h1").html(questions[index]);
     if (pictures[index]){
-	$("#pic").html("<img src=" + pictures[index] + " width=360>");
+	$("#pic").html("<img src=" + pictures[index] + " width=500>");
     }else{
 	$("#pic").html("");
     }
